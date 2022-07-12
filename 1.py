@@ -1,6 +1,6 @@
 ''' code for solving the diophantine equation : y^2 = (x+a)(x+a+1)(x+b)(x+b+1)
     sage:H(3,10)
-     >>> a,b,x0,|y0|: 3 10 12 24
+     >>> a,b,x0[0],x0[1],|y0|,check: 3 10 -2 -12 24
      It returns the non trivial integer solutions
 '''
 
@@ -27,5 +27,4 @@ def H(a,b):
         if d1<d2 and mod((d1-d2),2)==0:
             A,B,C = 2,2*(a+b+1),2*a*b+a+b-(d1+d2)//2
             if is_square(B**2-4*A*C) and (d1-d2)/2!=0:
-                print "a,b,x0[0],x0[1],|y0|,check:",a,b,(-B+int(sqrt(B**2-4*A*C)))/4,(-B-int(sqrt(B**2-4*A*C)))/4,abs((d1-d2)/2),sqrt(int(f.subs(x=(-B+int(sqrt(B**2-4*A*C)))/4)))
-                return f
+                print "a,b,x0[0],x0[1],|y0|,check:",a,b,(-B+int(sqrt(B**2-4*A*C)))/4,(-B-int(sqrt(B**2-4*A*C)))/4,abs((d1-d2)/2)
