@@ -1,6 +1,7 @@
 ''' code for solving the diophantine equation : y^2 = (x+a)(x+a+1)(x+b)(x+b+1)
     sage:H(3,10)
-     >>>	a,b,x0,|y0|: 3 10 12 24
+     >>> a,b,x0,|y0|: 3 10 12 24
+     It returns the non trivial integer solutions
 '''
 
 def resultant_singular(a,b,i):
