@@ -1,5 +1,5 @@
 ''' code for solving the diophantine equation : y^2 = (x+a)(x+a+k)(x+b)(x+b+k)
-    sage:H1,2,41)
+    sage:H(1,2,41)
     [[7, 420], [-51, 420], [-22, 420], [-1, 0], [-43, 0], [-2, 0], [-42, 0]]
     
     It returns the non trivial integer solutions
