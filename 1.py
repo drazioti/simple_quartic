@@ -6,24 +6,12 @@
     It returns all the integer solutions
 '''
 
-def resultant_singular(a,b,i):
-    S = singular.ring(0, '(x,z)', 'dp')
-    g1s = singular(a)
-    g2s = singular(b)
-    if i==0:
-        res = singular.resultant(g1s,g2s,'x')
-    if i==1:
-        res = singular.resultant(g1s,g2s,'z')        
-    return res
-
 var('x,y,a,b')
 P.<x,z,a,b> = PolynomialRing(QQ, 4)
 def H(a,b,k):
     O = 0
     L = []
     f = (x+a)*(x+(a+k))*(x+b)*(x+(b+k)).subs(a=a,b=b)
-    f_=diff(f,x)
-    res = resultant_singular(P(f+z),P(f_),0).sage()
     n = (k*(a-b))^2
     DIV = divisors(n)
     DIV_minus = [-O for O in DIV]
