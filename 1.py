@@ -33,7 +33,6 @@ def H(a,b,k):
             B,C1,C2 = 2*(a+b+k),2*a*b+k*a+k*b-(d1+d2)//2,2*a*b+k*a+k*b+(d1+d2)//2
             Delta1 = B^2 - 8*C1
             Delta2 = B^2 - 8*C2
-            #print Delta1,is_square(Delta1),int(sqrt(Delta1)),d1,d2
             if is_square(Delta1):        
                 sqr_delta1 = int(sqrt(Delta1))
                 x1,x2 = (-B+sqr_delta1)/4,(-B-sqr_delta1)/4
