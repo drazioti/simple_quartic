@@ -49,4 +49,4 @@ def H(a,b,k):
                 if [x2,y] not in L:
                     L.append([x2,y])
     print(L)
-    return f
+    return 
