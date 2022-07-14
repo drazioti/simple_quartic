@@ -1,7 +1,7 @@
 ''' code for solving the diophantine equation : y^2 = c^2x^4+ax^2+b
     The function takes three inputs H2(c,a,b) and returns the integer solutions with y>=0.
     sage:H2(3,7,-8)
-    [[3, 84], [-3, 84]]
+    [[3, 28], [-3, 28]]
 '''
 
 def H2(c,a,b):
@@ -15,7 +15,7 @@ def H2(c,a,b):
             if is_square(Delta):                
                 sqr_delta = int(sqrt(Delta))
                 x1,x2 = sqr_delta,-sqr_delta
-                y = abs((d1-d2)/4)
+                y = (d2-d1)/(4*c)
                 L.append([x1,y])
                 if [x2,y] not in L:
                     L.append([x2,y])
