@@ -11,7 +11,6 @@ P.<x,z,a,b> = PolynomialRing(QQ, 4)
 def H(a,b,k):
     O = 0
     L = []
-    f = (x+a)*(x+(a+k))*(x+b)*(x+(b+k)).subs(a=a,b=b)
     n = (k*(a-b))^2
     DIV = divisors(n)
     DIV_minus = [-O for O in DIV]
@@ -32,7 +31,6 @@ def H(a,b,k):
                 sqr_delta2 = int(sqrt(Delta2))
                 x1,x2 = (-B+sqr_delta2)/4,(-B-sqr_delta2)/4
                 y = abs((d1-d2)/4)
-                
                 L.append([x1,y])
                 if [x2,y] not in L:
                     L.append([x2,y])
