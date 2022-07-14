@@ -1,6 +1,6 @@
 ''' code for solving the diophantine equation : y^2 = c^2x^4+ax^2+b
     The function takes three inputs H2(c,a,b) and returns the integer solutions with y>=0.
-    sage:H2(1,2,41)
+    sage:H2(3,7,-8)
     [[7, 420], [-51, 420], [-22, 420], [-1, 0], [-43, 0], [-2, 0], [-42, 0]]
 '''
 
