@@ -2,7 +2,7 @@
     sage:H(1,2,41)
     [[7, 420], [-51, 420], [-22, 420], [-1, 0], [-43, 0], [-2, 0], [-42, 0]]
     
-    It returns the non trivial integer solutions
+    It returns all the integer solutions
 '''
 
 def resultant_singular(a,b,i):
