@@ -1,5 +1,5 @@
 ''' code for solving the diophantine equation : y^2 = (x+a)(x+a+k)(x+b)(x+b+k)
-    The function takes three inputs H(a,b,k) and returns the intgere solutions with y>=0.
+    The function takes three inputs H(a,b,k) and returns the integer solutions with y>=0.
     sage:H(1,2,41)
     [[7, 420], [-51, 420], [-22, 420], [-1, 0], [-43, 0], [-2, 0], [-42, 0]]
 '''
