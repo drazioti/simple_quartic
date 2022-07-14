@@ -9,11 +9,9 @@
 var('x,y,a,b')
 P.<x,z,a,b> = PolynomialRing(QQ, 4)
 def H(a,b,k):
-    O = 0
     L = []
     n = (k*(a-b))^2
     DIV = divisors(n)
-    DIV_minus = [-O for O in DIV]
     for d1 in DIV:
         d2 = n/d1
         if mod((d1-d2),2)==0 and d1<=d2:
