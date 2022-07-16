@@ -1,7 +1,8 @@
 ''' code for solving the diophantine equation : cy^2 = cx^4+ax^2+b
-    The function takes three inputs H2(c,a,b) and returns the integer solutions with x and y>=0.
-    sage:H2(3,7,-8)
-    [[3, 28], [-3, 28]]
+    The function takes three inputs H2(c,a,b) and returns the integer solutions with y>=0.
+    sage:c,a,b=2,21,1
+    sage:H3(c,a,b)
+    [[7, 54], [-7, 54]]
 '''
 def H3(c,a,b):
     L = []
