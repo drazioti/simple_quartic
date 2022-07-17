@@ -7,7 +7,7 @@
 var('x,y,a,b')
 P.<x,z,a,b> = PolynomialRing(QQ, 4)
 def H(a,b,k):
-    L = []
+    L = [] # In list L we keep all the integer solutions [x,y]
     n = (k*(a-b))^2
     DIV = divisors(n) # positive divisors of n
     for d1 in DIV:
