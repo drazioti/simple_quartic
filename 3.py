@@ -11,7 +11,9 @@
 def H3(c,a,b):
     L = []
     n = a^2-4*b*c
-    DIV = divisors(n)
+    DIV_positive = divisors(n)
+    DIV_minus = [-O for O in DIV_positive]
+    DIV = DIV_positive+DIV_minus
     for d1 in DIV:
         d2 = n/d1
         if mod((d1-d2),2)==0 and d1<=d2:
@@ -24,4 +26,3 @@ def H3(c,a,b):
                 if [x2,y] not in L:
                     L.append([x2,y])
     print(L)
-    return 
