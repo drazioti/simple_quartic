@@ -15,6 +15,7 @@ def H(a,b,k):
         if mod((d1-d2),2)==0 and d1<=d2:
             # here we consider two different values for C, 
             # since we have to search in both, positive d1,d2 and negative d1,d2
+            # and only C depends on d1,d2.
             B,C1,C2 = 2*(a+b+k),2*a*b+k*a+k*b-(d1+d2)//2,2*a*b+k*a+k*b+(d1+d2)//2
             Delta1 = B^2 - 8*C1
             Delta2 = B^2 - 8*C2
