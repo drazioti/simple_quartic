@@ -10,6 +10,10 @@
     sage:quartic(C,a,b,c,d)
     [[1, 12], [-1, 12]]
     
+    sage:C,a,b,c,d=12,0,-30,0,-24
+    sage:quartic(C,a,b,c,d)
+    [[2, 2], [-2, 2]]
+
 '''
 def is_integer(x):
     if floor(x)==x:
