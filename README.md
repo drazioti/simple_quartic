@@ -1,6 +1,8 @@
 ![GPLv2][]
-The repository contains sagemath files for solving specific quartic hyperellipitc equations.<br/>
 [GPLv2]: https://img.shields.io/badge/license-GPLv2-lightgrey.svg
+
+The repository contains sagemath files for solving specific quartic hyperellipitc equations.<br/>
+
 1.py concerns y^2=(x+a)(x+a+k)(x+b)(x+b+k)<br/>
 2.py concerns y^2=c^2x^4+ax^2+b<br/>
 3.py concerns cy^2 = cx^4+ax^2+b<br/>
