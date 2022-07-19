@@ -1,6 +1,7 @@
-#poulakis method
+#Method for solving y^2=x^4+ax^3+bx^2+cx+d.
+#In the code belo,l we only provide the intervals of x.
 reset()
-def poulakis(a,b,c,d):
+def method1(a,b,c,d):
     A_positive = a - 8*c + 4*a*b - a^3 
     B_positive = 8*b - 2*a^2 + 1 - 64*d + 16 * b^2 + a^4 - 8*b*a^2
     A_negative = a + 8*c - 4*a*b + a^3 
