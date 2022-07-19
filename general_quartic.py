@@ -47,6 +47,9 @@ def method_1(a,b,c,d,f):
                 L.append([x0,y])
     if -8*c + 4*a*b - a^3!=0:
         x1 = (64*d - 16 * b^2 - a^4 + 8*b*a^2) / (8*(- 8*c + 4*a*b - a^3))
+        if is_integer(sqrt(f.subs(x=x1)))==1:
+            y = sqrt(f.subs(x=x0))
+            L.append([x1,y])
     return L
     
 def H2(c,a,b):
