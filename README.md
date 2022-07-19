@@ -1,4 +1,5 @@
 ![GPLv2][]
+
 [GPLv2]: https://img.shields.io/badge/license-GPLv2-lightgrey.svg
 
 The repository contains sagemath files for solving specific quartic hyperellipitc equations.<br/>
