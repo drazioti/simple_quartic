@@ -2,6 +2,12 @@
     The function takes three inputs H(a,b,k) and returns the integer solutions with y>=0.
     sage:H(1,2,41)
     [[7, 420], [-51, 420], [-22, 420], [-1, 0], [-43, 0], [-2, 0], [-42, 0]]
+    
+    sage:H(1,2,1)
+    [[-1, 0], [-3, 0], [-2, 0]]
+    In this case the trivial roots are three since x=-2 is a double root.
+
+    
 '''
 
 var('x,y,a,b')
