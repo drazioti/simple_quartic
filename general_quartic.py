@@ -13,6 +13,10 @@
     sage:C,a,b,c,d=12,0,-30,0,-24 # curve 12y^2=12x^4 - 30x^2 - 24
     sage:quartic(C,a,b,c,d)
     [[2, 2], [-2, 2]]
+    
+    References :
+    [1]  D. Poulakis, A simple method for solving the diophantine equation $y^2=x^4+ax^3+bx^2+cx+d$, Elem. Math. 54 (1999), p. 32 -- 36.
+    [2]  K. A. Draziotis, Practical solution of some families of quartic diophantine hyperelliptic equations
 
 '''
 def is_integer(x):
