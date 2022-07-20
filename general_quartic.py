@@ -6,11 +6,11 @@
     sage:quartic(C,a,b,c,d)
     [[-16, 60], [-14, 0], [-13, 0], [8, 0], [9, 0], [11, 60]]
    
-    sage:C,a,b,c,d=11^2,0,21,0,2 # curve y^2=C^2x^4 + 21x^2 + 2
+    sage:C,a,b,c,d=11^2,0,21,0,2 # curve y^2=121x^4 + 21x^2 + 2
     sage:quartic(C,a,b,c,d)
     [[1, 12], [-1, 12]]
     
-    sage:C,a,b,c,d=12,0,-30,0,-24
+    sage:C,a,b,c,d=12,0,-30,0,-24 # curve 12y^2=12x^4 - 30x^2 - 24
     sage:quartic(C,a,b,c,d)
     [[2, 2], [-2, 2]]
 
