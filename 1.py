@@ -10,8 +10,6 @@
     
 '''
 
-var('x,y,a,b')
-P.<x,z,a,b> = PolynomialRing(QQ, 4)
 def H(a,b,k):
     L = [] # In list L we keep all the integer solutions [x,y]
     n = (k*(a-b))^2
