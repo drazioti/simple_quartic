@@ -2,17 +2,11 @@
     The function takes three inputs H2(c,a,b) and returns the integer solutions with y>=0.
     sage:H2(3,7,-8)
     [[3, 28], [-3, 28]]
-'''
-
-''' code for solving the diophantine equation : y^2 = c^2x^4+ax^2+b
-    The function takes three inputs H2(c,a,b) and returns the integer solutions with y>=0.
-    sage:H2(3,7,-8)
-    [[3, 28], [-3, 28]]
     sage:H2(11,21,2)
     [[1, 12], [-1, 12]]
 '''
 
-def H2git(c,a,b):
+def H2(c,a,b):
     L = []
     n = a^2-4*b*c^2
     DIV_positive = divisors(n)
