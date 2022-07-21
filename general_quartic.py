@@ -1,4 +1,5 @@
-'''
+''' 
+    run the code here : https://tinyurl.com/79zhfpvs
     The following code solve the diophantine equation y^2=x^4+ax^3+bX^2+cx=d and also the following 
     Cy^2=Cx^4+bx^2+d and y^2=C^2x^4+bx^2+d
     
