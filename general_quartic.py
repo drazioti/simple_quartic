@@ -67,6 +67,8 @@ def H2(c,a,b):
     L = [] # the list that contains the solutions [x,y] with y>0
     sqrtc = int(sqrt(c))
     n = a^2-4*b*c
+    if n==0:
+        return "In y^2=f(x), f(x) can not be a square"
     DIV_positive = divisors(n)
     DIV_minus = [-O for O in DIV_positive]
     DIV = DIV_positive+DIV_minus
@@ -95,6 +97,8 @@ def H3(c,a,b):
     
     L = []
     n = a^2-4*b*c
+    if n==0:
+        return "In y^2=f(x), f(x) can not be a square"
     DIV_positive = divisors(n)
     DIV_minus = [-O for O in DIV_positive]
     DIV = DIV_positive+DIV_minus
