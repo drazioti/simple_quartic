@@ -78,9 +78,11 @@ def H2(c,a,b):
                 sqr_delta = int(sqrt(Delta))
                 x1,x2 = sqr_delta,-sqr_delta
                 y = (d2-d1)/(4*sqrtc)
-                L.append([x1,y])
-                if [x2,y] not in L:
+                if is_integer(y)==1:
+                    L.append([x1,y])
+                if [x2,y] not in L and is_integer(y)==1:
                     L.append([x2,y])
+                
     return L
    
 
