@@ -18,7 +18,7 @@
     References :
     [1]  D. Poulakis, A simple method for solving the diophantine equation $y^2=x^4+ax^3+bx^2+cx+d$, Elem. Math. 54 (1999), p. 32 -- 36.
     [2]  D. W. Masser, Polynomial Bounds for Diophantine Equations, Amer. Math. Monthly {\bf 93} (1986), p. 486--488.
-    [3]  K. A. Draziotis, Practical solution of some families of quartic diophantine hyperelliptic equations
+    [3]  K. A. Draziotis, Practical solution of some families of quartic diophantine hyperelliptic equations, https://arxiv.org/pdf/2207.10754.pdf
 
 '''
 def is_integer(x):
