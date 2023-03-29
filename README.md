@@ -1,6 +1,7 @@
-![GPLv2][]
-
-[GPLv2]: https://img.shields.io/badge/license-GPLv2-lightgrey.svg
+<p float="left">
+<img src="https://img.shields.io/badge/license-GPLv2-lightgrey.svg" width="80" height="25">
+<img src="https://github.com/sagemath/artwork/blob/master/sage-logo-2018.svg" width="80" height="25"> 
+</p>
 
 The repository contains sagemath files for solving specific quartic hyperelliptic equations.<br/>
 The algorithms based on the paper https://arxiv.org/pdf/2207.10754.pdf
